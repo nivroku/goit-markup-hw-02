@@ -28,8 +28,13 @@ body{
 .logo-studio {
     color: #000000;}
 
+.logo-studio-footer {
+    color: #FFFFFF;
+}
+
 a:link {
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 /*Site nav*/
 
@@ -39,6 +44,14 @@ a:link {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+
+.name-studio {
+    color: var(--brand-color); 
+}
+
+.name-portfolio {
+    color: var(--brand-color); 
 }
 
 .site-nav:hover, 
@@ -53,7 +66,8 @@ a:link {
     color: rgba(100%, 100%, 100%, 60%);
 }
 
-.contacts-header:hover, .contacts-header:focus{
+.contacts-header:hover, 
+.contacts-header:focus{
     color: var(--brand-color);
 }
 
@@ -80,7 +94,9 @@ a:link {
 .hero {
     background-color: var(--footer-background-color);
     color: #FFFFFF;
-    padding: 200px 452px 280px 452px;
+    width: 1600;
+    height: 600;
+    /*padding: 200px 452px 280px 452px;*/
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
@@ -105,6 +121,11 @@ a:link {
     border-radius: 4px;
     letter-spacing: 0.06em;
     cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #117dd4;
 }
 
 .button-portfolio {
@@ -136,7 +157,7 @@ a:link {
     letter-spacing: 0.03em; 
 }
 
-.about-title {
+.about-title h2 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -148,7 +169,11 @@ a:link {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--paragraph-color);
+    color: var(--paragraph-color)
+}
+
+.team {
+    background-color: #F5F4FA;
 }
 
 .team-name {
@@ -156,6 +181,7 @@ a:link {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .team-position {
@@ -164,11 +190,13 @@ a:link {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 /*portfolio*/
 
 .project-title {
+    color: var(--text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
