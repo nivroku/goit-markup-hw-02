@@ -60,10 +60,17 @@ a:link {
 }
 .contacts-header {
     color: var(--paragraph-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts-footer {
     color: rgba(100%, 100%, 100%, 60%);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .contacts-header:hover, 
@@ -76,11 +83,14 @@ a:link {
     color: var(--brand-color);
 }
 
-.contacts-adress{
+.adress-footer {
     color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
-.contacts-adress:hover, 
-.contacts-adress:focus {
+.adress-footer:hover, 
+.adress-footer:focus {
     color: var(--brand-color);}
 
 .footer{
@@ -88,15 +98,13 @@ a:link {
 }
 .list{
     list-style: none;
+    font-style: normal;
 }
 
 /*hero*/
 .hero {
     background-color: var(--footer-background-color);
     color: #FFFFFF;
-    width: 1600;
-    height: 600;
-    /*padding: 200px 452px 280px 452px;*/
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
@@ -112,11 +120,6 @@ a:link {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     border-color: transparent;
     border-radius: 4px;
     letter-spacing: 0.06em;
@@ -136,10 +139,6 @@ a:link {
     letter-spacing: 0.03em;
     border-color: transparent;
     border-radius: 4px;
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
     cursor: pointer;
 }
 
@@ -186,7 +185,6 @@ a:link {
 
 .team-position {
     color: var(--paragraph-color);
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
